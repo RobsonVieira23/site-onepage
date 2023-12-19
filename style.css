@@ -102,3 +102,24 @@ section h3 {
   padding: 15px 50px;
   border: 0;
 }
+
+.box1pg3 h2 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  line-height: 50px;
+}
+
+.paragrafos p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #606176;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div {
+}
