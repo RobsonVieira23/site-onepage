@@ -66,20 +66,39 @@ section h3 {
 }
 .box2 {
   p {
+    margin-top: 47px;
+    margin-bottom: 70px;
+    color: #606176;
     width: 447px;
-    border-radius: 16px;
-    font-size: 18px;
+    border-radius: 0;
+    font-size: 15px;
     font-weight: 400;
-    margin: 37px 0;
+    padding: 10px;
   }
 
   h3 {
     color: #101130;
     font-size: 44px;
+    padding: 10px;
   }
 }
 
 .img-box2 {
-  width: 50%;
-  height: 50%;
+  width: 650px;
+  height: 650px;
+}
+
+.divspg2 {
+  width: 100%;
+}
+
+.button {
+  color: #606060;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 15px 50px;
+  border: 0;
 }
