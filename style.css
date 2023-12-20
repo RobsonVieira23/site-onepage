@@ -110,16 +110,67 @@ section h3 {
   line-height: 50px;
 }
 
-.paragrafos p {
-  font-size: 18px;
-  font-weight: 400;
-  color: #606176;
+.paragrafos {
+  gap: 45px 82px;
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #606176;
+    line-height: 30px;
+  }
+  div:nth-child(2) .boxiconpg3 {
+    background-color: #1987c6b2;
+  }
+  div:nth-child(3) .boxiconpg3 {
+    background-color: #1987c6b2;
+  }
 }
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 600px;
+  border-spacing: 40px;
 }
 
-div {
+body h4 {
+  color: #101130;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 0;
+}
+
+.imgboxpg3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  div {
+    background-color: #c1e5f9;
+    border-radius: 16px;
+    padding: 22px 18px;
+    width: max-content;
+    position: absolute;
+    top: calc(100% - 80px);
+
+    p:nth-child(1) {
+      color: #5a5d60;
+      font-size: 16px;
+    }
+
+    p {
+      color: #797979;
+      font-size: 12px;
+      width: 201px;
+    }
+  }
+}
+
+.divpg3 {
+  column-gap: 135px;
+}
+
+.boxiconpg3 {
+  padding: 20px;
+  background-color: #eb8d2eb2;
+  width: max-content;
+  border-radius: 16px;
 }
